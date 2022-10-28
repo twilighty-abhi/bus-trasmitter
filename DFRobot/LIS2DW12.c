@@ -15,6 +15,7 @@ void init_accli(){
   DFRobot.setPowerMode(DFRobot_LIS2DW12::eContLowPwrLowNoise2_14bit);
 }
 
+//init update 
 void hpf(float max){
     if(x<max) x=0.0;
 
